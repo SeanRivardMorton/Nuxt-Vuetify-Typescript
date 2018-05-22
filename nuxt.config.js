@@ -57,7 +57,7 @@ module.exports = {
   ** Build configuration
   */
   css: ['~/assets/styles/app.styl'],
-  build: {},
+  build: { vendor: ['vuex-class', 'nuxt-class-component'] },
   plugins: ['~/plugins/vuetify.ts'],
   modules: ['@nuxtjs/axios', '~/modules/typescript.js'],
   vendor: ['~/plugins/vuetify.ts'],

@@ -51,35 +51,19 @@
 </template>
 
 <script lang="ts">
+import Component from 'nuxt-class-component';
 import Vue from 'vue';
 
-// export default class extends Vue {
-//     @AuthState isLogged: boolean;
-//     clipped = false;
-//     drawer = true;
-//     fixed = false;
-//     miniVariant = false;
-//     right = true;
-//     rightDrawer = false;
-//     title = 'Vuetify.js';
-//     items = [
-//         { icon: 'apps', title: 'Welcome', to: '/' },
-//         { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' }
-//     ];
-// };
-export default {
-  data() {
-    return {
-      clipped: true,
-      drawer: true,
-      fixed: true,
-      login: '/login',
-      logInMessage: 'Sign out',
-      miniVariant: true,
-      right: true,
-      rightDrawer: false,
-      title: '/masv-logo.png'
-    };
-  }
-};
+@Component
+export default class extends Vue {
+  clipped = true;
+  drawer = true;
+  fixed = true;
+  miniVariant = true;
+  right = true;
+  rightDrawer = false;
+  title = 'Title';
+}
 </script>
+
+

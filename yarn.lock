@@ -436,6 +436,10 @@ babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-async-functions/-/babel-plugin-syntax-async-functions-6.13.0.tgz#cad9cad1191b5ad634bf30ae0872391e0647be95"
 
+babel-plugin-syntax-class-properties@^6.8.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-class-properties/-/babel-plugin-syntax-class-properties-6.13.0.tgz#d7eb23b79a317f8543962c505b827c7d6cac27de"
+
 babel-plugin-syntax-dynamic-import@^6.18.0:
   version "6.18.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-6.18.0.tgz#8d6a26229c83745a9982a441051572caa179b1da"
@@ -463,6 +467,15 @@ babel-plugin-transform-async-to-generator@^6.22.0:
     babel-helper-remap-async-to-generator "^6.24.1"
     babel-plugin-syntax-async-functions "^6.8.0"
     babel-runtime "^6.22.0"
+
+babel-plugin-transform-class-properties@^6.24.1:
+  version "6.24.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.24.1.tgz#6a79763ea61d33d36f37b611aa9def81a81b46ac"
+  dependencies:
+    babel-helper-function-name "^6.24.1"
+    babel-plugin-syntax-class-properties "^6.8.0"
+    babel-runtime "^6.22.0"
+    babel-template "^6.24.1"
 
 babel-plugin-transform-es2015-arrow-functions@^6.22.0:
   version "6.22.0"
@@ -3352,6 +3365,13 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
+nuxt-class-component@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/nuxt-class-component/-/nuxt-class-component-1.2.1.tgz#2a079576298a8dfe1ea1ab47b9fc1fc9de2eb5d4"
+  dependencies:
+    vue-class-component "^6.2.0"
+    vuex-class "^0.3.0"
+
 nuxt-property-decorator@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/nuxt-property-decorator/-/nuxt-property-decorator-1.2.0.tgz#bdc0ed858ab2b0d70ca9b59ba56a910ff6314144"
@@ -4443,7 +4463,7 @@ reduce-function-call@^1.0.1, reduce-function-call@^1.0.2:
   dependencies:
     balanced-match "^0.4.2"
 
-reflect-metadata@^0.1.12:
+reflect-metadata@^0.1.10, reflect-metadata@^0.1.12:
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.12.tgz#311bf0c6b63cd782f228a81abe146a2bfa9c56f2"
 
@@ -5372,7 +5392,7 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-class-component@^6.0.2:
+vue-class-component@^6.0.2, vue-class-component@^6.1.0, vue-class-component@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-6.2.0.tgz#7adb1daa9a868c75f30f97f33f4f1b94aee62089"
 
@@ -5405,6 +5425,13 @@ vue-meta@^1.4.3:
     deepmerge "^2.0.0"
     lodash.isplainobject "^4.0.6"
     object-assign "^4.1.1"
+
+vue-property-decorator@^6.0.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/vue-property-decorator/-/vue-property-decorator-6.1.0.tgz#ef97bcc1bfe794ec060133ca04a5aca02e808828"
+  dependencies:
+    reflect-metadata "^0.1.10"
+    vue-class-component "^6.1.0"
 
 vue-router@^3.0.1:
   version "3.0.1"
@@ -5448,6 +5475,10 @@ vue@^2.5.13:
 vuetify@^1.0.17:
   version "1.0.18"
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.0.18.tgz#56289ba7c6e5eee3d4ee4dacd5e7dded4aee4c08"
+
+vuex-class@^0.3.0:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/vuex-class/-/vuex-class-0.3.1.tgz#3c0b946bcff4cf2be1904de5b0cab1a3dd5c41d5"
 
 vuex@^3.0.1:
   version "3.0.1"
