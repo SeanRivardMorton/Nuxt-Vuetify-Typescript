@@ -1,0 +1,25 @@
+{
+  "name": "masv-front-end",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "nuxt": "^1.4.0",
+    "nuxt-property-decorator": "^1.2.0",
+    "vuetify": "^1.0.17",
+    "vuex-class": "^0.3.0"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}

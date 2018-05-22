@@ -1,0 +1,59 @@
+Arguments: 
+  /Users/sean/.nvm/versions/node/v9.5.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js run dev
+
+PATH: 
+  /Users/sean/.nvm/versions/node/v9.5.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/sean/.rbenv/bin:/Users/sean/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/Users/sean/Code/go/bin:/Users/sean/.fzf/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "masv-front-end",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+      "@nuxtjs/axios": "^5.0.0",
+      "nuxt": "^1.3.0",
+      "nuxt-property-decorator": "^1.2.0",
+      "vuex-class": "^0.3.0"
+    },
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate"
+    },
+    "devDependencies": {
+      "@types/node": "^9.4.6",
+      "ts-loader": "^3.5.0",
+      "typescript": "^2.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 127
+  Command: sh
+  Arguments: -c nuxt
+  Directory: /Users/sean/Code/javascript/test/my-project
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:160:13)
+      at maybeClose (internal/child_process.js:943:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
