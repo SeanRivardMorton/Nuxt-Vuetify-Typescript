@@ -15,7 +15,14 @@
     "baseUrl": ".",
     "sourceMap": true,
     "paths": {
-      "~/*": ["./*"]
+      "~/": ["./"],
+      "~/assets/*": ["./assets/*"],
+      "~/components/*": ["./components/*"],
+      "~/middleware/*": ["./middleware/*"],
+      "~/pages/*": ["./pages/*"],
+      "~/plugins/*": ["./plugins/*"],
+      "~/static/*": ["./static/*"],
+      "~/store/*": ["./store/*"]
     }
   }
 }

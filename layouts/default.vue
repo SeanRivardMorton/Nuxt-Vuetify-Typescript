@@ -56,6 +56,7 @@ import Vue from 'vue';
 
 @Component
 export default class extends Vue {
+  name = 'Test';
   clipped = true;
   drawer = true;
   fixed = true;
