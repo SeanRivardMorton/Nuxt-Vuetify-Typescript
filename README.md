@@ -1,10 +1,10 @@
-# masv-front-end
+# Nuxt+Vuetify+Typescript
 
-> Masv Front-end template
+> A typescript story
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install # Or yarn install
 
